@@ -1,0 +1,29 @@
+[project]
+name = "indexing-service"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "cloud-sql-python-connector[pg8000]>=1.18.5",
+    "cloudevents>=1.11.0",
+    "fastapi[all]>=0.119.1",
+    "functions-framework>=3.9.2",
+    "google-cloud-aiplatform>=1.121.0",
+    "google-cloud-documentai>=3.7.0",
+    "google-cloud-storage>=2.19.0",
+    "langchain>=1.0.1",
+    "langchain-core>=1.0.0",
+    "langchain-google-genai>=3.0.0",
+    "langchain-google-vertexai>=3.0.0",
+    "langchain-postgres>=0.0.16",
+    "pg8000>=1.31.5",
+    "pgvector>=0.3.6",
+    "psycopg2-binary>=2.9.11",
+    "pydantic>=2.12.3",
+    "python-dotenv>=1.1.1",
+    "six",
+    "sqlalchemy>=2.0.44",
+    "sqlmodel>=0.0.27",
+    "textract-py3",
+]

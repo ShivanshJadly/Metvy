@@ -1,0 +1,57 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# testing
+coverage
+
+# next.js
+.next/
+out/
+build
+
+# misc
+.DS_Store
+*.pem
+# Ignore large output logs and system specific files
+output.txt
+*.log
+.DS_Store
+
+# SECURE: Google Cloud & Service Account Keys
+# This covers key.json, gcs-config.json and any other json keys
+key.json
+gcs-config.json
+*.json_key
+secrets/*.json
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# turbo
+.turbo
+
+# Vercel
+.vercel
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/*
+
+# Scripts
+*.ps1
